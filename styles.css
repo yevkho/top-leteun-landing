@@ -4,13 +4,10 @@ body {
     max-width: 1300px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.77);
-    
-    
 }
 
 .hero {
     background-color: #1f2937;
-
 }
 
 .header {
@@ -77,8 +74,6 @@ img.hero {
     object-fit: cover;
 }
 
-
-
 .info {
     text-align: center;
     background-color: white;
@@ -89,7 +84,6 @@ img.hero {
     color: #1f2937;
     font-weight: bolder;
     padding: 40px;
-
 }
 
 .info-elements {
@@ -133,7 +127,6 @@ img.icon {
     font-style: normal;
 }
 
-
 .cta {
     display: flex;
     align-items: center;
@@ -141,7 +134,6 @@ img.icon {
     height: 400px;
     background-color: white;
 }
-
 
 .box {
     display: flex;
@@ -186,5 +178,4 @@ img.icon {
     background-color: #1f2937;
     font-size: 18px;
     padding: 30px 0px;
-
 }
