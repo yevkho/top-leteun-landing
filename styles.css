@@ -1,6 +1,10 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
+    max-width: 1300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.77);
+    
     
 }
 
@@ -62,8 +66,9 @@ a {
     background-color: #3882f6;
     padding: 8px 34px;
     border-radius: 8px;
-    border: 1px solid #3882f6;
+    border: 2px solid #3882f6;
     color: white;
+    cursor:pointer;
 }
 
 img.hero {
@@ -76,6 +81,7 @@ img.hero {
 
 .info {
     text-align: center;
+    background-color: white;
 }
 
 .info-title {
@@ -116,7 +122,7 @@ img.icon {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
-    padding: 100px 300px 80px 300px;
+    padding: 100px 280px 80px 280px;
 }
 
 .author {
@@ -125,4 +131,60 @@ img.icon {
     color: #1f2937;
     font-weight: 900;
     font-style: normal;
+}
+
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: white;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: #3882f6;
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 0px 120px;
+
+}
+
+.ctabutton {
+    background-color: #3882f6;
+    padding: 8px 34px;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.ctaheader{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ctatext {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    font-size: 18px;
+    padding: 30px 0px;
+
 }
